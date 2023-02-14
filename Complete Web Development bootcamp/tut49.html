@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript | Strings and String Method</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eveniet quisquam accusamus, qui placeat inventore a dicta laborum tenetur labore esse consectetur. Harum quas rem numquam neque quos deleniti atque, amet doloribus corporis. Nostrum.</p>
+
+    </div>
+    <script>
+        // var string="thi's";
+        var string='thi"s';
+        var name=' Harry ';
+        var channel='Code with harry ';
+        var message='Harry is a good  boy';
+        var temp=`${name} is a nice 'person " and he has a channel called  ${channel}`;      //bactics
+        console.log(string);
+        console.log(string + name + message);
+        console.log(temp);
+        var len=name.length;
+        console.log(`Length of name is ${len}`);
+        console.log("Hello \\n world \n Harry \t and");
+        var y = new  String("this");
+        console.log(y);
+
+        document.getElementById('content').innerHTML='<h3> this is an h3 heading </h3>'
+    </script>
+</body>
+</html>

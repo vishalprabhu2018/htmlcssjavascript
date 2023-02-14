@@ -1,0 +1,66 @@
+//- index.pug
+doctype html
+html
+  head
+    title 
+     |Vishal Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul
+          div#logo 
+            img(src="https://source.unsplash.com/user/erondu/200x100")
+            |HDA
+          li #[a#item(href="/") Home] 
+          li #[a#item(href="/") About] 
+          li #[a#item(href="/") Services] 
+          li #[a#item(href="/") Class Info ] 
+          li #[a#item(href="/") Contact Us] 
+          
+
+    section#introSection
+        div Welcome to Vishal's Dance Academy
+        div.small Eat Sleep dance Repeat
+    
+    section#missionSection
+         h2 Our Missions
+         div.card
+           h3 Dance Perfection
+           div.card-box 
+            div.card-img 
+                 img(src="https://source.unsplash.com/user/erondu/200x100")
+            div.card-content 
+                 p This is the best dance academy of the universe
+         
+         div.card
+           h3 Dance the way you like
+           div.card-box 
+            div.card-img 
+                 img(src="https://source.unsplash.com/user/erondu/200x100")
+            div.card-content 
+                 p This is the best dance academy of the universe
+          
+         div.card
+           h3 Expert teacher
+           div.card-box 
+            div.card-img 
+                 img(src="https://source.unsplash.com/user/erondu/200x100")
+            div.card-content 
+                 p This is the best dance academy of the universe
+
+
+    section#sponsorsSection
+         h2 Our sponsors
+         div#sponsors 
+             img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+             img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+             img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+             img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+    
+
+    footer#foot
+        |Copyright &copy; 2020 VishalDanceAcademy.com  | All rights reserved
+
+    script
+      include ../static/index.js

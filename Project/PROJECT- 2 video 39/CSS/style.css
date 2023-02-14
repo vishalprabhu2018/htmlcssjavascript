@@ -1,0 +1,207 @@
+/* Navigation section */
+
+.navbar{
+    display:flex;
+    font-family: 'Balsamiq Sans', cursive;
+    color:white;
+    font-size: 20px;
+}
+
+.navbar img{
+    height:66px;
+    position: relative;
+    left: 2px;
+    filter: invert(100%);
+}
+.bar2 a{
+    text-decoration: none;
+    color:black;
+}
+
+.bar2{
+    display:inline-block;
+    margin:10px;
+    cursor: pointer;
+
+}
+
+.bar2 a:hover, #home-bar a{
+    color:greenyellow;
+    text-decoration: underline;
+}
+
+.bar1{
+    margin: 2px auto;
+    width:500px
+    
+}
+
+.btn1{
+    margin: 18px 2px;
+}
+
+.btn2{
+    font-family: 'Balsamiq Sans', cursive;
+    border-radius: 10px;
+    background-color: red;
+    border: 2px solid rgb(141, 11, 11);
+    cursor:pointer;
+    font-size: 18px;
+    
+}
+.btn2:hover{
+    background-color: rgb(245, 188, 188);
+}
+
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width:100%;
+    height:15%;
+    z-index: -1;
+    top:0;
+    left:0;
+    opacity: 0.5;
+    
+}
+/* body welcome part */
+ 
+.bodyp{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color:black;
+    font-size:18px;
+}
+
+.body1::before{
+    content:"";
+    background:url('../bg2.jpg');
+    position: absolute;
+    width:100%;
+    height:105%;
+    z-index:-1;
+    top: 0;
+    left:0;
+    opacity:0.8;
+}
+
+.body1 button{
+    margin: 47px 500px;
+    padding: 8px 45px;
+    border-radius: 10px;
+    color:rgb(37, 4, 4);
+    background-color: greenyellow;
+    border: 2px solid rgb(56, 77, 1);
+    cursor:pointer;
+}
+
+.body1 button:hover{
+    background-color: rgb(198, 231, 148);
+}
+
+/* Our services */
+
+#two{
+    margin-top: 188px;
+}
+
+.our-services1{
+    display:flex;
+    justify-content: space-evenly;
+}
+.our-services2{
+    border:2px solid yellow;
+    margin: 3px 18px;
+    border-radius: 15px;
+    padding: 2px 16px;
+    text-align: center;
+
+}
+.our-services2 img{
+    height:160px;
+    width: 177px;
+    margin: 2px auto;
+}
+ 
+/* Our Clients */
+.clients1{
+    display:flex;
+    justify-content: space-evenly;
+}
+.clients2 img{
+    height:100px;
+    margin:10px 104px;
+}
+
+ .second::before{
+    content: "";
+    background: url(../bg.jpg);
+    position: absolute;
+    width: 100%;
+    height: 47.3323%;;
+    z-index: -1;
+    top: 1053px;
+    left:0px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+
+
+ /* Contact us */
+ #four{
+    margin-top: 165px;
+ }
+
+
+.contact-section::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    top: 1400px;
+    left:0px;
+    z-index: -1;
+    opacity:0.7;
+    background:url('../contact.jpg') no-repeat center center/cover;
+}
+.contact1 form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact2 input,
+.contact2 textarea{
+    width: 26%;
+    padding: 7px;
+    border-radius: 9px;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.foot{
+    background-color: black;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 1px -8px;
+    margin-top: 150px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+/* Utility Class  */
+.primary-h1{
+    text-align: center;
+    margin:50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+.primary-h2{
+    margin: 77px;
+    height: 2px;
+}

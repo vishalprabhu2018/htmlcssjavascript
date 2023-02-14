@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript String functions </title>
+</head>
+<style> </style>
+
+<body>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+        //First occurance of a substring
+        var position = str.indexOf('is');
+        console.log(position);
+
+        //Last occurance of a substring
+        var str = "This is a string";
+        console.log(str);
+        position = str.lastIndexOf('is');  // Here we didn't written var because we had written it early
+        console.log(position);
+
+        //Substring from a string
+        // var substr1 = str.slice(1,7);  //This can take negative values and in this the value is  1-6
+        // var substr1=str.substring(1,7); // This cannot take negative values in this the value is 1-6
+        var substr1 = str.substr(1, 3);  //This will include 1 and 3 both values 
+        console.log(substr1);
+
+        var replaced = str.replace('string', 'Harry');
+        console.log(str);
+        console.log(replaced);
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        var newString= str.concat(' NewString') ;
+        console.log(newString);
+
+        var whitespaces="         this contains    whitespaces               ";
+        console.log(whitespaces);
+        console.log(whitespaces.trim());  //imp
+
+      //  var char2=str.charAt(2);  //This gives the character of a sentence
+        var char2 = str.charCodeAt(2); //Not very important
+        console.log(char2);
+    </script>
+</body>
+
+</html>

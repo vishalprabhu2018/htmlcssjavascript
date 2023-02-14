@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            #map{
+                width: 100vw;
+                height: 100vh;
+            }
+        </style>
+        <title>Prabhu Corona Map</title>
+</head>
+<body>
+    <div id='map'></div>
+    
+</body>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoicHJhYmh1dmlzaGFsIiwiYSI6ImNrZGp2YXpoNjBkbDAyc2w0dTl1YXlpcngifQ.4OONl2fSM4q1lhN12JaC1g';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/dark-v10',
+    zoom:1
+  });
+</script>
+
+
+<script src="index.js"></script>
+
+
+
+</html>

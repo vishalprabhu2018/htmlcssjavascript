@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(230, 243, 217);
+            padding:34px;
+            margin:34px auto;
+            width:666px;
+
+        }
+        a{
+            /* text-decoration: none; it is used to remove the decoration of the text from the link ie blue line */
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            /* Hover meaning is that jabhi appka cursor kismi mai atta hai toh hover ki property usmai atti hai  */
+           color:rgb(5,0,0) ;
+            background-color: rgb(226, 208, 211);
+        }
+        a:visited{
+            
+            background-color:green;
+
+        }
+        a:active{ 
+            /* Jabh app kisi par press kartai hai toh voh link pai active ki property show katrti hai  */
+            background-color: blue;
+        }
+        .btn{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            background-color: red;
+            padding:6px;
+            border:none;
+            cursor:pointer; /*imp*/
+            font-size:13px;
+            border-radius: 4px;
+
+        }
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color:rgb(223, 245, 201);
+            border:2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="count1">
+        <h3>
+            This is my heading
+        </h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ex sequi non repellat voluptatem nam accusantium veniam incidunt tempora aspernatur fuga nesciunt, delectus error alias earum quisquam repudiandae? Laboriosam ab debitis quia cupiditate quos.
+        </p>
+        <a href="http://www.codeblocks.org/" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

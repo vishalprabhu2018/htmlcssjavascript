@@ -1,0 +1,23 @@
+nav.navbar
+
+div.left-logo (logo)  (left)
+
+div.bar1   (navigation bar) (cetner)
+li.bar2    
+
+div.btn1  (buttons) (right)  
+button.btn2  
+
+div.body1
+h3.primary-h1
+p.bodyp
+btn.bodybtn
+
+Our Services
+div.our-services1
+div.our-services2
+
+Our clients
+section.second
+div.clients1
+div.client2

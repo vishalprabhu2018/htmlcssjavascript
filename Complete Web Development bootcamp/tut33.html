@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        /* imp */
+        header::before{
+            content:"";
+            background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+            position:absolute;
+            width:100%;
+            height:100%;
+            z-index: -1;
+            top:0;
+            left:0;
+            opacity: 0.5;
+            
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            ;
+
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        section {
+            height: 344px;
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+
+        }
+
+        /* section::after{
+            content:"this is a content"
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, doloribus adipisci! Excepturi atque rerum
+            consequuntur vitae rem, quaerat ut ratione optio deserunt maiores commodi alias inventore fugit laborum sunt
+            porro nulla earum, error nemo!</p>
+    </section>
+    <hr>
+</body>
+
+</html>

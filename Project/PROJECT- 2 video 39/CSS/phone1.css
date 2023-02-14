@@ -1,0 +1,39 @@
+/* Navigation bar  */
+.navbar{
+    flex-direction: column;
+}
+#Welcome{
+    height:200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.body1 button {
+    margin: -7px 449px;
+}
+
+.our-services1 {
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.second::before {
+    content: "";
+    background: url(../bg.jpg);
+    position: absolute;
+    width: 104%;
+    height: 88.3323%;
+    z-index: -1;
+    top: 1666px;
+    left: 0px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+
+.clients1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap;
+}

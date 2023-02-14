@@ -1,0 +1,49 @@
+extends base.pug 
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+
+     section#introSection
+         div Welcome to Vishal's Dance Academy
+         div.small Eat Sleep dance Repeat
+    
+     section#missionSection
+          h2 Our Missions
+          div.card
+            h3 Dance Perfection
+            div.card-box 
+             div.card-img 
+                  img(src="https://source.unsplash.com/user/erondu/200x100")
+             div.card-content 
+                  p This is the best dance academy of the universe
+         
+          div.card
+            h3 Dance the way you like
+            div.card-box 
+             div.card-img 
+                  img(src="https://source.unsplash.com/user/erondu/200x100")
+             div.card-content 
+                  p This is the best dance academy of the universe
+          
+          div.card
+            h3 Expert teacher
+            div.card-box 
+             div.card-img 
+                  img(src="https://source.unsplash.com/user/erondu/200x100")
+             div.card-content 
+                  p This is the best dance academy of the universe
+
+
+     section#sponsorsSection
+          h2 Our sponsors
+          div#sponsors 
+              img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+              img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+              img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")
+              img(src="https://source.unsplash.com/user/erondu/200x100", alt="Sponsor Image", class="spImage")

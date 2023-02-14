@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php" method="get">
+        <!-- We should avoid br tag as much as possible and use div tag  instead of it  and css also -->
+        <!-- method="POST" it is use to hide your detail which you had filled in your form  -->
+        
+        <label for="name">Name</label>
+        <!-- label tag is very imp when we click at name we will go into the boxes -->
+        <div>
+            <input type="text" name="myName" id="name">
+
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br> <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swift" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- To submit form  -->
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+
+        <!-- Note: select then alt+down key is use to move something down in vs code -->
+
+    </form>
+</body>
+
+</html>

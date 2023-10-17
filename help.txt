@@ -21,7 +21,3 @@ Our clients
 section.second
 div.clients1
 div.client2
-
-
-test 22
-
